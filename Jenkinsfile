@@ -50,8 +50,6 @@ pipeline {
             success{
                 echo 'success'
             }
-            always{
-                echo 'always'
-            }
+           
         }
 }

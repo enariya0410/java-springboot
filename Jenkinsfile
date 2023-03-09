@@ -20,7 +20,7 @@ pipeline {
         }
         stage('Sonar Analysys stage'){
             steps{
-                echo 'majama'
+                echo 'majamtytytytya'
             }
         }
         stage('Deploy to Dev'){

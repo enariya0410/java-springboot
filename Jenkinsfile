@@ -18,6 +18,11 @@ pipeline {
                 echo 'QA-SONAR QUBE'
             }
         }
+        stage('Sonar Analysys stage'){
+            steps{
+                echo 'majama'
+            }
+        }
         stage('Deploy to Dev'){
             steps{
                 echo 'Deploy to Dev'
